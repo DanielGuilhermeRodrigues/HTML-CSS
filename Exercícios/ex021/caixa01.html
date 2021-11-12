@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas / Shorthands</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 250px;
+            width: 400px;
+            border-style: solid;
+            border-width: 10px;
+            border-right-width: 35px;
+            border-top-width: 30px;
+            border-color: blue;
+            border-radius: 20px 40px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+
+        }
+
+        a:hover {
+            border-style: solid;
+            color: blueviolet;
+            background-color: lightgray;
+
+        }
+
+        .sec {
+            background-color: blueviolet;
+            font-size: 30px;
+            width: 400px;
+            height: 400px;
+            text-align: left;
+
+            border: 10px solid yellow;
+
+            padding: 10px 10px 10px 10px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa box-level</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, iure. Dolorem itaque <a href="#">molestiae ex veritatis</a>. Vitae officiis perspiciatis totam cum voluptas laborum accusantium assumenda! Sed debitis commodi perspiciatis sit nulla?</p>
+
+    <p class="sec"><ins>Exemplos de ShortHands</ins>
+        <br><strong>border:</strong> 10px solid yellow;
+        (O padrão é: width, style e color).
+        <br><strong>padding:</strong> 10px 10px 10px 10px;
+        (O padrão é: top, right, bottom e left).
+        <br><strong>margin:</strong> 20px 20px 40px 20px;
+        (top, right, bottom e left).
+        <br><strong>outline:</strong> 5px dashed red;
+        (width, style e color).
+    </p>
+    
+</body>
+</html>
