@@ -23,6 +23,12 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        caption {
+            padding: 5px;
+            background-color: black;
+            color: white;
+        }
+
         th {
             border: 1px solid black;
         }
@@ -41,10 +47,11 @@
     <h1>Uso de Tabelas Grandes</h1>
 
     <table>
+        <caption>População de cada Estado (2021)</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População (2021)</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População (2021)</th>
             </tr>
         </thead>
 
@@ -73,7 +80,7 @@
 
         <tfoot>
             <tr>
-                <td>População Total</td>
+                <th scope="row">População Total</th>
                 <td class="num">0000</td>
             </tr>
         </tfoot>
